@@ -209,6 +209,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#header .flag {
+  width: 20px;
+  height: auto;
+  margin-right: 5px;
+}
+
 #header.fixed-top {
   background: rgba(0, 0, 0, 0.85);
 }
@@ -1278,4 +1284,210 @@ body .cardcontainer .stepcard .stepcardbox .stepcardcontent p {
   text-align: center;
   font-size: 13px;
   color: #ccc;
+}
+
+/* CLIENTS */
+
+.card3 {
+  background-image: url(../img/worldwide.jpg);
+}
+
+.card4 {
+  background-image: url(../img/experience.gif);
+}
+
+#about-employer {
+  /*background: #fff;*/
+  background: url(../img/employerbg.jpg) top center;
+  padding: 80px 0;
+}
+
+#about-employer .about-img {
+  overflow: hidden;
+}
+
+#about-employer .about-img img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about-employer .about-img {
+    height: auto;
+  }
+  #about-employer .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about-employer .about-content {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#about-employer .about-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#about-employer .about-text {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#about-employer .about-text:last-child {
+  margin-bottom: 0;
+}
+
+.card5 {
+  background-image: url(../img/passport.jpg);
+}
+
+.card6 {
+  background-image: url(../img/form.jpg);
+}
+
+#about-hp {
+  /*background: #fff;*/
+  background: url(../img/sports.jpg) top center;
+  padding: 80px 0;
+}
+
+#about-hp .about-img {
+  overflow: hidden;
+}
+
+#about-hp .about-img img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about-hp .about-img {
+    height: auto;
+  }
+  #about-hp .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about-hp .about-content {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#about-hp .about-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#about-hp .about-text {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#about-hp .about-text:last-child {
+  margin-bottom: 0;
+}
+
+.card7 {
+  background-image: url(../img/lawnie.jpg);
+}
+
+.card8 {
+  background-image: url(../img/bank.jpg);
+}
+
+#about-realestate {
+  /*background: #fff;*/
+  background: url(../img/realestate.png) top center;
+  padding: 80px 0;
+}
+
+#about-realestate .about-img {
+  overflow: hidden;
+}
+
+#about-realestate .about-img img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about-realestate .about-img {
+    height: auto;
+  }
+  #about-realestate .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about-realestate .about-content {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#about-realestate .about-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#about-realestate .about-text {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#about-realestate .about-text:last-child {
+  margin-bottom: 0;
+}
+
+.card9 {
+  background-image: url(../img/copyright.jpeg);
+}
+
+.card10 {
+  background-image: url(../img/einstein.jpg);
+}
+
+#about-prof {
+  /*background: #fff;*/
+  background: url(../img/entrepreneur.jpg) top center;
+  padding: 80px 0;
+}
+
+#about-prof .about-img {
+  overflow: hidden;
+}
+
+#about-prof .about-img img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #about-prof .about-img {
+    height: auto;
+  }
+  #about-prof .about-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+}
+
+#about-prof .about-content {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#about-prof .about-title {
+  color: #333;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+#about-prof .about-text {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+
+#about-prof .about-text:last-child {
+  margin-bottom: 0;
 }
